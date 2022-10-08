@@ -1,0 +1,144 @@
+
+.attribution { 
+	font-size: 0.8em; 
+	text-align: center; 
+	margin-top: 1em;
+}
+.attribution a { 
+	color: #8bacda; 
+}
+
+.attribution p { 
+	color: #fff; 
+	display: inline;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+
+body {
+	font-family: 'Outfit', sans-serif; 
+	background-color: #0d192b; 
+	width: 1440px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	background: #14253d;
+	width: 310px;
+	padding: 1.5em;
+	border-radius: 1em;
+
+}
+
+.caixaImagem {
+	position: relative;
+	width: 100%;
+}
+
+.imgPrincipal {
+	width: 100%;
+	height: auto;
+	border-radius: 0.5em;
+}
+
+.sobreposicao {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+}
+
+.caixaImagem:hover .sobreposicao {
+	background-image: url(../images/icon-view.svg) no-repeat;
+	background-size: cover;
+	background-color: #00fff7;
+	cursor: pointer;
+	opacity: 0.5;
+	border-radius: 0.5em;
+
+}
+
+.sessaoDescricao h2 {
+	color: #fff;
+}
+
+.sessaoDescricao h2:hover {
+	color: #00fff7;
+	cursor: pointer;
+}
+
+.sessaoDescricao p {
+	font-size: 18px;
+	color: #8bacda;
+}
+
+.sessaoDetalhes {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 0.5em;
+	border-bottom: 0.5px solid grey;	
+}
+
+.valor {
+	background: url(../images/icon-ethereum.svg) no-repeat center left;
+	padding-left: 1.2em;
+}
+
+.valor p {
+	color: #00fff7;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.expiracao {
+	background: url(../images/icon-clock.svg) no-repeat center left;
+	padding-left: 1.5em;
+	
+}
+
+.expiracao p {
+	color: #8bacda;
+	font-size: 18px;
+}
+
+.sessaoAutor {
+	margin-top: 0.5em;
+    display: flex;
+    flex-direction: row;
+   	align-items: center;
+}
+
+.imagemAvatar img {
+	border: 1px solid #fff;
+	border-radius: 100%;
+	float: left;
+	display: inline;
+}
+
+.sessaoAutor p {
+	margin-left: 1em;
+	padding-right: 5em;
+	color: #8bacda;
+	float: right;
+	text-align: center;
+
+}
+
+.sessaoAutor span {
+	color: #fff;
+}
+
+.sessaoAutor span:hover {
+	color:  #00fff7;
+	cursor: pointer;
+}
+
